@@ -32,3 +32,11 @@ export interface User {
   created_at: string;
   updated_at: string;
 }
+
+export interface Selector{
+    theme:state
+}
+
+type state ={
+    light:boolean
+}
