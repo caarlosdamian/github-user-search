@@ -12,6 +12,7 @@
   height: 100vh;
   width: 100vw;
   padding: 144px 355px;
+  transition: all 0.3s ease-in-out; transform: rotate3d(0,0,0,0deg);
   &.dark {
     background: $darkest-blue;
   }
