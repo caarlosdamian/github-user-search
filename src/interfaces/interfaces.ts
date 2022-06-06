@@ -1,3 +1,5 @@
+import { ButtonHTMLAttributes } from "react";
+
 export interface User {
   login: string;
   id: number;
@@ -39,4 +41,8 @@ export interface Selector{
 
 type state ={
     light:boolean
+}
+
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+  label:string
 }

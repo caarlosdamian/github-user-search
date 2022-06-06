@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useSelector } from 'react-redux'
 import './App.scss'
+import { Top } from './components/Top/Top'
 import { Selector } from './interfaces/interfaces'
 import { useUsersQuery } from './redux/services/api'
 
@@ -12,7 +13,7 @@ const {light} = useSelector((state:Selector)=>state.theme)
 
   return (
     <div className={`App ${light?'light':'dark'}`}>
-
+      <Top/>
     </div>
   )
 }

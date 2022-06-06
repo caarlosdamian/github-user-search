@@ -1,0 +1,48 @@
+@import "../../constants/tokens.scss";
+
+
+.top__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .top__container-header {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    margin-right: 524px;
+    &.dark {
+      color: $white;
+    }
+    &.light {
+      color: $dark-geray;
+    }
+  }
+
+  .top__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    cursor: pointer;
+
+    .top__wrapper-header {
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 19px;
+      text-align: right;
+      letter-spacing: 2.5px;
+      &.dark {
+        color: $white;
+      }
+      &.light {
+        color: $gray;
+      }
+    }
+
+    .top__wrapper-img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

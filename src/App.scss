@@ -5,11 +5,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Space Mono", monospace;
+  font-style: normal;
 }
 
 .App {
   height: 100vh;
   width: 100vw;
+  padding: 144px 355px;
   &.dark {
     background: $darkest-blue;
   }
