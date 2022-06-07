@@ -7,14 +7,32 @@
   justify-content: space-between;
   width: 730px;
 
+  @media (max-width: 768px) {
+    width: 573px;
+  }
+
+  @media (max-width: 375px) {
+    width: 327px;
+  }
+
   .top__container-header {
     font-weight: 700;
     font-size: 26px;
     line-height: 39px;
     margin-right: 524px;
+
+    @media (max-width: 768px) {
+      margin-right: 365px;
+    }
+
+    @media (max-width: 375px) {
+      margin-right: 121px;
+    }
+
     &.dark {
       color: $white;
     }
+
     &.light {
       color: $dark-geray;
     }
@@ -33,9 +51,11 @@
       line-height: 19px;
       text-align: right;
       letter-spacing: 2.5px;
+
       &.dark {
         color: $white;
       }
+
       &.light {
         color: $gray;
       }
