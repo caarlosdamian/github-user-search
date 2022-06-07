@@ -2,7 +2,6 @@ import { useRef, useState } from "react";
 import { useSelector } from "react-redux";
 import search from "../../assets/icon-search.svg";
 import { SearcProps , Selector} from "../../interfaces/interfaces";
-import { useUsersQuery } from "../../redux/services/api";
 import "./SearchBar.scss";
 
 export const SearchBar = ({ setSearch, isError }: SearcProps) => {
