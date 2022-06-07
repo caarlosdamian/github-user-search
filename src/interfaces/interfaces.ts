@@ -46,3 +46,8 @@ type state ={
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   label:string
 }
+
+export interface SearcProps{
+  setSearch:React.Dispatch<React.SetStateAction<string>>;
+  isError:boolean;
+}
