@@ -12,7 +12,8 @@
   height: 100vh;
   width: 100vw;
   padding: 144px 355px;
-  transition: all 0.3s ease-in-out; transform: rotate3d(0,0,0,0deg);
+  transition: all 0.3s ease-in-out;
+  transform: rotate3d(0, 0, 0, 0deg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,17 +26,17 @@
     background: $dark-white;
   }
   .spinner {
-    border: 4px solid rgba(0, 0, 0, .1);
+    border: 4px solid rgba(0, 0, 0, 0.1);
     border-left-color: transparent;
     width: 36px;
     height: 36px;
-    
+
     animation: spin 1s linear infinite;
     @keyframes spin {
       0% {
         transform: rotate(0deg);
       }
-    
+
       100% {
         transform: rotate(360deg);
       }
